@@ -1,0 +1,36 @@
+div {
+    width: 400px;
+}
+
+fieldset {
+    margin-top: 10px;
+    background-color: aqua;
+}
+
+p {
+    margin: 0px;
+}
+
+input [type="text"],
+input [type="password"],
+select,
+textarea {
+    margin-left: 10px;
+    margin-bottom: 10bx;
+}
+
+input[type="checkbox"],
+{
+    margin-left: 130px;
+}
+
+label {
+    width: 110px;
+    float: left;
+}
+
+label[for="html"],
+label [for="css"],
+label [for="php"] {
+    float: initial;
+}
