@@ -18,25 +18,11 @@ if (!isset($_POST["submit"])) {
 <body>
     <h1>Halaman Proses</h1>
     <?php
-    $nama = $_POST["nama"];
-    $email = $_POST["email"];
-    /*    $belajar = $_POST["belajar"]; */
-
-    if (empty($nama)) {
-        echo "Nama Wajib diisi <br>";
-    } else {
-        echo "Nama Siswa : $nama <br>";
-    }
-    if (empty($email)) {
-        echo "Email wajib diisi <br>";
-    } else {
-        echo "Email anda adalah : $email <br>";
-    }
+    echo    "Nama Siswa : " . $_POST["nama"] . "<br>";
+    echo    "Email Siswa :" . $_POST["email"] . "<br>";
     if (isset($_POST["belajar"])) {
         echo    "Mau belajar apa? " . $_POST["belajar"];
     }
-
-
     ?>
 </body>
 
